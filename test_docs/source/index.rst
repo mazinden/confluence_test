@@ -7,10 +7,17 @@
 ================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:
    
    medical_card
+   .. toctree::
+   
+   element_type
+   field_type
+   validation_class
+   values_catalog
+   
    receipt_api
 
 
