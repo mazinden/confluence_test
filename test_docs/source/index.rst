@@ -9,8 +9,7 @@
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :includehidden:
-      
+         
    medical_card
    receipt_api
 
