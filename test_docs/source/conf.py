@@ -67,7 +67,7 @@ master_doc = 'index'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = 'ru'
+language = 'en'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -131,14 +131,7 @@ latex_elements = {
     # Latex figure (float) alignment
     #
     # 'figure_align': 'htbp',
-    'fontpkg': r'''
-    \substitutefont{LGR}{\rmdefault}{cmr}
-    \substitutefont{LGR}{\sfdefault}{cmss}
-    \substitutefont{LGR}{\ttdefault}{cmtt}
-    \substitutefont{X2}{\rmdefault}{cmr}
-    \substitutefont{X2}{\sfdefault}{cmss}
-    \substitutefont{X2}{\ttdefault}{cmtt}
-    ''',
+    
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
