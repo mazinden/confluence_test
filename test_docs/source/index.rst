@@ -1,30 +1,18 @@
-.. Test documentation master file, created by
-   sphinx-quickstart on Wed Jan 16 18:26:47 2019.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. meta::
+   :description: 
+   :author: ITigris
+   :geo.placename: Worldwide
 
-Приветствую в Тестовой документации!
-================================
-
-.. toctree::
-   :maxdepth: 3
-   :caption: Contents:
-   
-   medical_card
-   .. toctree::
-   
-   element_type
-   field_type
-   validation_class
-   values_catalog
-   
-   receipt_api
-
-
-
-Indices and tables
+Тестовая площадка
 ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Contents:
+   
+   medical_card/element_type
+   medical_card/field_type
+   medical_card/validation_class
+   medical_card/values_catalog
+   receipt_api
