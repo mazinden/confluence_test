@@ -131,6 +131,14 @@ latex_elements = {
     # Latex figure (float) alignment
     #
     # 'figure_align': 'htbp',
+    'fontpkg': r'''
+    \substitutefont{LGR}{\rmdefault}{cmr}
+    \substitutefont{LGR}{\sfdefault}{cmss}
+    \substitutefont{LGR}{\ttdefault}{cmtt}
+    \substitutefont{X2}{\rmdefault}{cmr}
+    \substitutefont{X2}{\sfdefault}{cmss}
+    \substitutefont{X2}{\ttdefault}{cmtt}
+    ''',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
